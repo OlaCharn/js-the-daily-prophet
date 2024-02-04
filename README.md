@@ -6,7 +6,7 @@
 ⭐ Deployed at: (<https://the-daily-prophet.netlify.app/>)
 
 
->I have made this project to learn React by building applications
+>I have made this project to learn JavaScript.
 >
 ![The Daily Prophet](https://github.com/OlaCharn/js-the-daily-prophet/blob/main/thedailyprophet.png?raw=true)
 > 9¾ ⚯ 🗲 

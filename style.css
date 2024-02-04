@@ -1,0 +1,1861 @@
+body{
+    background: url(https://cdn.glitch.global/3e4b2c6a-4f15-49a3-a6b6-6dc52ca58d4f/DesktopNew.jpg?v=1695202000956);
+    repeat: no-repeat;
+
+}
+.greyFilter{
+    filter: grayscale(80%);
+    transition: 0.5s ease;
+}
+.autumnMarker:hover{
+    background-color: #B07925;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.newspaper{
+    display: flex;
+    justify-content: center;
+}
+.fl{
+    float: left;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-top: 20px;
+    display: flex;
+
+}
+.logo{
+    width: 120px;
+    height: 110px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    opacity: 0;
+}
+.THEDAILYPROPHET{
+    justify-content: center;
+    color: #1c1915;
+text-align: center;
+font-family:  'EB Garamond', serif;
+font-size: 58px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+.TDP{
+    color: #1c1915;
+font-family:  'EB Garamond', serif;
+font-size: 74px;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 2.4px;
+}
+.P{
+color: #D69E11;
+font-family:  'EB Garamond', serif;
+font-size: 74px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+-webkit-text-stroke:  2px #4C120B;
+letter-spacing: 3.2px;
+}
+/*заголовок газеты*/
+.newspaper_issue{
+    height: 68px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.newspaper_issue2{
+    margin-top: 2px;
+    height: 59px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.isuue{
+    color: #000;
+text-align: center;
+font-family: 'Playfair Display SC', serif;
+font-size: 16px;
+line-height: normal;
+font-style: normal;
+font-weight: 400;
+}
+
+/*первые три части газеты*/
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.RonSortingHut{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+
+.titleArticle{
+    width: 730px;
+    color: #000;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+    letter-spacing: 1.2px;
+    margin-top: 0px;
+
+}
+.ron{
+    display: flex;
+    flex-direction: row;
+
+}
+.column{
+    width: 190px;
+    height: 412px;
+    color: #000;
+text-align: justify;
+font-family: 'Manrope', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.leftmargin{
+    margin-left: 20px;
+}
+.flowerpotImg{
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.linkUnder{
+    display: flex;
+    flex-direction: column;
+}
+.marginLink{
+    margin-left: 18px;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: bold;
+}
+.linkColor{
+    color: #B07925;
+}
+/*сортировочная шляпа*/
+
+.sortingHut{
+    display: flex;
+    margin-top: 45px;
+    border-top: #1c1915 2px solid;
+    margin-right: 10px;
+}
+.hut{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.titleArticle1{
+    height: 101px;
+    width: 520px;
+    color: #000;
+    font-family: 'PT Sans Narrow';
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+}
+.imgHut{
+    width: 520px;
+    height: 300px;
+    transition: 0.5s ease;
+}
+.borderBroomstick{
+    background-color: #B07925;
+    border-radius: 0 25px 25px 0px;
+}
+.broomstickTextImg{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    background-image: url(https://cdn.glitch.global/3e4b2c6a-4f15-49a3-a6b6-6dc52ca58d4f/design-space-paper-textured-background1.jpg?v=1696264862761);
+}
+.broomstick{
+    padding: 10px;
+    border-radius: 20px 20px 0 0 ;
+    margin: 0;
+    border-bottom: none;
+    color: #FFF8ED;
+    font-family: 'Playfair Display SC';
+
+
+}
+.broomstickName{
+    transform: rotate(-90deg);
+    margin:0:
+}
+.senf{
+    background-color: #B07925;
+}
+.kastan{
+    background-color: #5B3A09;
+}
+.griff{
+    background-color: #7C330A;
+}
+.com{
+    background-color: #E0B004;
+}
+.broomstickImg{
+    height: 165px;
+}
+.broomstickText{
+    color: #000;
+    text-align: justify;
+    font-family: 'Playfair Display SC';
+    font-size: 14px;
+    line-height: normal;
+
+}
+.question{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    accent-color: #D69E11;
+
+}
+
+.textArticle{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 466px;
+    margin-top: 16px;
+
+}
+.column1{
+color: #000;
+text-align: justify;
+font-family: 'Manrope', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0px;
+}
+/*гермиона*/
+
+.hermione{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 219px;
+}
+.HotNews{
+    align-self: center;
+    color: #000;
+text-align: center;
+font-family: 'Vollkorn', serif;
+font-size: 30px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+letter-spacing: 2px;
+margin-bottom: 20px;
+margin-top: 0px;
+}
+.exclusive{
+    width: 190px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF8ED;
+    background-color: #1c1915;
+font-family: 'Manrope', sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.transform{
+    letter-spacing: 2.4px;
+}
+.HotNews { animation: turner 8s infinite linear }
+
+@keyframes turner{
+    from{  transform: rotateY(0deg)   }
+    to  {  transform: rotateY(360deg) }
+}
+
+.hermioneImg{
+    width: 190px;
+    height: 120px;
+    margin-bottom: 0px;
+
+}
+.secretHermione{
+    width: 190px;
+    color: #FFF8ED;
+    background-color: #1c1915;
+text-align: center;
+font-family: 'Manrope';
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.6px;
+text-transform: capitalize;
+word-spacing: 1.6px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+.marginHermi{
+    margin:2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.textHermi{
+    width: 190px;
+
+}
+.textHermi2{
+    color: #000;
+text-align: justify;
+font-family: 'Manrope';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.quoteHermi{
+    color: #000;
+    text-align: justify;
+
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.pomodoroImg{
+    width: 190px;
+    border: 1px solid black;
+
+}
+.fullTextHermi{
+    width: 190px;
+}
+.mobileHermi{
+    width: 190px;
+    margin: 0px;
+    background-color: #1c1915;
+}
+/*лягушки*/
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.FrogsMenuRita{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*border-right: 2px solid black;*/
+    width: 730px
+}
+.FrogsMenu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.brFrog{
+    margin-right: 15px;
+    border-bottom: solid 2px black;
+
+}
+.frogs{
+    border-top: 2px solid black;
+}
+.frogsArticleName{
+    width: 190px;
+    height: 90px;
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: small-caps;
+}
+.frogsInAction{
+    width: 50px;
+}
+
+.frogsText{
+    width: 190px;
+    height: 491px;
+    color: #000;
+    text-align: justify;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*меню*/
+
+.menu{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.menuArticleName{
+    border-top: 2px solid black;
+    height: 120px;
+    color: #000;
+    color: #000;
+    font-family: 'PT Sans Narrow';
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+}
+.menuText{
+    margin-right: 10px;
+}
+.menuText1{
+    color: #000;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+}
+.menuText2{
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+.menuImg{
+    display: flex;
+    justify-content: start;
+
+}
+.menuImg1{
+    width: 490px;
+    border: solid 1px black;
+}
+.smallAdvMenu{
+    color: #000;
+font-family: 'Manrope';
+font-size: 12px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 1.3px;
+margin-top: 0px;
+margin-left: 5px;
+}
+/*rita*/
+
+.rita{
+    display: flex;
+    flex-direction: column;
+
+}
+.ritaArtikleName{
+    height: 110px;
+    width: 720px;
+    margin-left: 10px;
+
+}
+.ritaArtikleTextNAme{
+    color: #000;
+    font-family: 'Playfair Display SC';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+    letter-spacing: 1.2px;
+}
+/*books*/
+.booksAndText{
+    display: flex;
+
+}
+.books{
+    width: 450px;
+    height: 500px;
+    background: url(https://cdn.glitch.global/3e4b2c6a-4f15-49a3-a6b6-6dc52ca58d4f/3d-render-spotlights-grunge-bric.jpg?v=1695203537739),lightgray 50% / cover no-repeat;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: space-between;}
+.inputWizard{
+    margin-top: 55px;
+}
+.inputField{
+    width: 300px;
+    border-radius: 10px;
+    border-color: #1c1915;
+    background: #D69E11 ; /* #FFF8ED*/
+    padding: 5px ;
+    font-size:14px;
+    font-family: 'Playfair Display SC';
+
+}
+::placeholder{
+    color:black;
+    text-align: center;
+}
+.booksOrient{
+    margin-bottom: 5px;
+}
+.booksImg{
+    width: 234px;
+    height: 335px;
+}
+.ritaText{
+    width: 230px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 55px;
+
+}
+.textAboutBooks{
+    color: #000;
+    text-align: justify;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+li{
+    font-family: 'PT Sans Narrow';
+    font-size: 18px;
+}
+/*dragonEggs*/
+.dragonEggs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 205px;
+    border: #1c1915 solid 2px;
+    margin-left: 10px;
+
+}
+.mobileEggs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale{
+    width: 190px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF8ED;
+    background: #B92222;
+    font-family: 'EB Garamond';
+    margin-top: 7px;
+}
+.saleText{
+    width: 151px;
+    height: 105px;
+    color: #FFF8ED;
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+text-align: center;
+font-family: 'EB Garamond';
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: lowercase;
+}
+.chooseEgg{
+    width: 151px;
+    height: 70px;
+}
+.chooseEggText{
+    color: #000;
+text-align: center;
+font-family: 'Playfair Display SC';
+font-size: 15px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+letter-spacing: 1.5px;
+}
+.eggs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    height: 800px;
+}
+.eggsImg{
+    width: 126px;
+}
+.dragon{
+    opacity: 0;
+    width: 10px;
+}
+.sale2{
+    width: 190px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF8ED;
+    background: #B92222;
+    font-family: 'EB Garamond';
+    margin-bottom: 7px;
+    margin-top: 50px;
+}
+
+.saleText2{
+    width: 151px;
+    height: 105px;
+    color: #FFF8ED;
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+text-align: center;
+font-family: 'EB Garamond';
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+word-spacing: 50px;
+}
+
+/*AI*/
+.main4{
+    display: flex;
+    border-top: #1c1915 solid 2px;
+    margin-top: 40px;
+    border-bottom: solid 2px #1c1915;
+
+}
+.magicAI{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nameMagicAi{
+    color: #000;
+font-family: 'PT Sans Narrow';
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+.nameMagicAiText{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 3px;
+}
+.playAI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+#playAiScholler{
+    background-color: #FFF8ED;
+    border: solid 1px #1c1915;
+
+
+}
+.hutPlay{
+    height: 100px;
+}
+.imgSortHut{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.facultyName{
+    font-family: 'Lobster Two', sans-serif;
+    color: #FFF8ED;
+    font-size: 20px;
+    opacity: 0;
+}
+.myFacultyName{
+    opacity: 0;
+}
+.avatarAndRadio{
+    display: flex;
+}
+.avatarAndRadioSmall{
+    display: flex;
+}
+.avatarSmall{
+    width: 50px;
+    height: 50px;
+}
+.sortMe{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #D69E11;
+    border-style: double;
+    border-color: #FFF8ED ;
+    padding: 5px;
+    font-family: 'Lobster Two', cursive;
+    color: #FFF8ED;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sortMe:hover{
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.footerAI{
+    display: flex;
+    justify-content: end;
+}
+.aboutMagicAi{
+    color: #000;
+font-family: 'Kreon';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-right: 15px;
+}
+.pageAi{
+    height: 18px;
+    width: 220px;
+}
+.sortMargin{
+    margin-right: 20px;
+}
+/*snowHogwarts*/
+.snowHogwarts{
+    width: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-left: #1c1915 1px solid;
+
+}
+.particlesOnImg{
+    position: relative;
+    text-align: center;
+}
+#particles-js{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-100%, 15%);
+}
+
+.hogwImg{
+    width: 252px;
+    height: 224px;
+    margin-left: 10px;
+    margin-right: 35px;
+    margin-top: 20px;
+    shape-outside: circle(50%);
+    float: left;
+
+
+}
+
+
+.nameHogwarts{
+    color: #000;
+    text-align: right;
+    font-family: 'PT Sans Narrow';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.textHogwarts{
+    margin-left: 15px;
+    text-align: justify;
+    color: #000;
+font-family: 'Manrope';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/*sivilla*/
+.sivillaMain{
+    border-top: #1C1915 1px solid;
+    margin-left: 15px;
+}
+.sivillaArtikleName{
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: small-caps;
+}
+.sivillaArtikleText{
+    color: #000;
+    text-align: justify;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.prediction{
+    align-self: center;
+    margin-left: 25px;
+    font-family: 'Neucha', cursive;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    color: #FFF8ED;
+
+
+}
+.sivilla{
+    display: flex;
+    justify-content: space-between;
+    border: #1C1915 solid 2px;
+    background-image: url(https://cdn.glitch.global/3e4b2c6a-4f15-49a3-a6b6-6dc52ca58d4f/15.jpg?v=1696417070315);
+    repeat:no-repeat;
+
+
+}
+/*погода*/
+.main5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-top: #1c1915 solid 1px;
+}
+.weaterNAme{
+    color: #000;
+    text-align: center;
+    font-family: 'Playfair Display SC';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+.inputCity{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.inputAPI{
+    width: 300px;
+    border: none;
+    border-top: #1c1915 solid 2px;
+    border-bottom: #1c1915 solid 2px;
+    border-color: #1c1915;
+    background: transparent ; /* #FFF8ED*/
+    padding: 8px ;
+    font-size:16px;
+    font-family: 'Playfair Display SC';
+
+}
+::placeholder{
+    color:black;
+    text-align: center;
+}
+.differentCities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.city{
+    width: 120px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.grad{
+    color: #000;
+font-family: 'Kreon';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 5px;
+
+}
+.H{
+    -webkit-text-stroke:  1px #d8b60e;
+
+}
+.A{
+    -webkit-text-stroke:  1px #4697af;
+}
+.L{
+    -webkit-text-stroke:  1px #54c6e9;
+
+}
+.B{
+    -webkit-text-stroke:  1px #c0573f;
+}
+.D{
+    -webkit-text-stroke:  1px #4363b4;
+}
+
+
+sup{
+    font-size: 32px;
+    margin-left: -10px;
+
+}
+.nameCity{
+    width: 133px;
+    height: 38px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    color: #1C1915;
+font-family: 'Vollkorn';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+text-align: center;
+padding: 10px;
+}
+
+/*aurors*/
+.main6{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    width: auto;
+    background: #1C1915;
+
+}
+.viereck{
+    background: #1C1915;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.aurorsText1{
+    color: #FFF8ED;
+font-family: 'Vollkorn';
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+text-align: justify;
+padding-right: 10px;
+}
+.fullStory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.aurorsText2{
+    color: #FFF8ED;
+    font-family: 'Kreon';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+align-self: center;
+}
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: #1C1915 solid 2px;
+    padding: 5px;
+
+}
+.page{
+    width: 90px;
+    height: 30px;
+}
+.meName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vCharnukha{
+    font-family:'Kreon' ;
+}
+
+
+
+@media all and (max-width:950px){
+    .logoTitle{
+        width: 630px;
+    }
+    .main2{
+        display: flex;
+        justify-content: center;
+    }
+        
+    .RonSortingHut{
+        border-right: none;
+        border-bottom: solid 2px black;
+
+    }
+    .FrogsMenuRita{
+        border-right: none;
+        margin-left: 10px;
+    }
+    
+    .sortingHut{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hermione{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 730px;
+        margin-bottom: 50px;
+    }
+    .secretHermione{
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .marginHermi{
+        margin: 7px;
+        align-self: center;
+    }
+    .mobileview{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .mobileHermi {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .textHermi {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -15px;
+    }
+    .pomodoro{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    .HotNews{
+        margin-top: 10px;
+    }
+    .dragonEggs{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        width: auto;
+        margin-left: 0px;
+    }
+    .mobileEggs{
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .chooseEgg{
+        display: none;
+    }
+    .eggs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 140px;
+        margin: 2px;
+    }
+    .eggsImg{
+        width: 106px;
+    height: 129px;
+    align-self: center;
+    margin-bottom: 0px;
+    }
+    .sale2{
+        width: 190px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFF8ED;
+        background: #B92222;
+        font-family: 'EB Garamond';
+        margin-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+
+    }
+    
+    .saleText2{
+        width: 151px;
+        height: 105px;
+        color: #FFF;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .main4{
+        display: flex;
+        border-top: #1c1915 solid 2px;
+        margin-top: 40px;
+        
+        flex-direction: column;
+        align-items: center;
+        width: 770px;
+    
+    }
+    .snowHogwarts{
+        border-left: none;
+        border-top: #1c1915 solid 1px;
+        width: auto;
+    }
+    .fotoHogwarts{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .nameHogwarts{
+        margin-right: 15px;
+
+    }
+    .textHogwarts{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #particles-js{
+        top: 10%;
+        left: 50%;
+        transform: translate(-175%, 15%);
+    }
+    
+    .magicAI{
+        width: auto;
+        margin: 20px;
+
+
+    }
+    .footerAI{
+        display: flex;
+    
+    }
+    .main3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .viereck{
+        height: 110px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .aurorsText1{
+    font-size: 25px;
+    }
+    .aurorsText2{
+        font-size: 15px;
+}
+
+    
+    
+    
+    
+    
+
+}
+
+
+@media all and (max-width:700px){
+    .logoTitle{
+        width: 560px;
+    }
+
+    .name{
+        margin-top: 26px;
+        display: flex;
+    
+    }
+    .THEDAILYPROPHET{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    }
+    .TDP{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2.4px;
+    }
+    .P{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    -webkit-text-stroke:  2px #4C120B;
+    letter-spacing: 3.2px;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+    }
+    .logoTitle{
+        width: 600px;
+    }
+
+        
+    .newspaper_issue{
+        height: 83px;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+    
+    .newspaper_issue2{
+        height: 73px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .isuue{
+    font-size: 14px;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 00;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    
+    
+    .titleArticle{
+        width: 350px;
+        font-size: 23px;
+        letter-spacing: 0px;
+        margin-left: 10px;
+    }
+    .ron{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .column{
+        width: 300px;
+        height: 415px;
+        font-size: 20px;
+    }
+    
+    
+    .titleArticle1{
+        height: 120px;
+        width: 350px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 1.2px;
+    }
+    .sortingHut{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-right: 0px;
+        margin-top: 50px;
+
+
+    }
+    .broomstick{
+        padding: 5px;
+        border-radius: 20px 20px 0 0 ;
+        margin: 0;
+    }
+    
+    .imgHut{
+        width: 370px;
+        height: 200px;
+        align-self: start;
+
+    }
+    
+    .textArticle{
+        width: 300px;
+        height: 500px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .column1{
+        font-size: 20px;
+        }
+        
+    .leftmargin{
+        margin-left: 0px;
+        }
+    .flowerpotImg{
+        margin-top: 80px;
+    }
+    .hermione{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 400px;
+        }
+    .mobileview{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 300px;
+        }
+    .textHermi2{
+        font-size: 16px;
+    }
+    .quoteHermi{
+        font-size: 16px;
+
+        }
+        .mobileHermi{
+            width: 300px;
+        }
+        .exclusive{
+            width: 300px;
+        }
+        .hermioneImg{
+            width: 300px;
+            height: 190px;
+        }
+        .secretHermione{
+            width: 300px;
+        }
+        .textHermi{
+            width: 300px;
+        }
+        .pomodoroImg{
+            width: 300px;
+        }
+        .fullTextHermi{
+            width: 300px;
+        }
+    
+        /*menu*/
+    .main3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .FrogsMenuRita{
+        width: auto;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        }
+    
+        
+    .FrogsMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+    }
+    .frogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .frogsArticleName{
+        height: 120px;
+    }
+    .frogsArticleName{
+        width: 300px;
+    }
+    .frogs{
+        margin-left: 0px;
+    }
+    .frogsText{
+        height: 400px;
+        width: 300px;
+    }
+
+    .menu{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .menuArticleName{
+        width: 300px;
+        height: 200px;
+        align-self: center;
+        margin-left: 0px;
+        margin-right: 0px;
+
+
+    }
+    .menuText{
+        margin-right: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .menuText1{
+        width: 300px;
+    }
+    .menuText2{
+        width: 300px;
+
+    }
+    .menuImg{
+        display: flex;
+        justify-content: start;
+    
+    }
+    .menuImg1{
+        width: 300px;
+        border: solid 1px black;
+    }
+    .smallAdvMenu{
+        width: 300px;
+
+    }
+    /*rita*/
+    .rita{
+        justify-content: center;
+        align-content: center;
+        align-items: center;    }
+    
+    .ritaArtikleName{
+        height: 300px;
+        width: 300px;
+    }
+    /*books*/
+    .booksAndText{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .books{
+        background: url(https://cdn.glitch.global/3e4b2c6a-4f15-49a3-a6b6-6dc52ca58d4f/3d-render-spotlights-grunge-bric360.jpg?v=1695203704680);
+        width: 360px;
+        height: 400px;
+        margin-top: 70px;
+    }
+    .booksImg{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .ritaText{
+        width: 300px;
+        height: 580px;
+        margin-left: 33px;
+        margin-top: 40px;
+    
+    }
+    .textAboutBooks{
+        color: #000;
+        text-align: justify;
+        font-family: 'Manrope';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /*dragonEggs*/
+    
+.dragonEggs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    border: #1c1915 solid 2px;
+
+}
+.sale{
+    width: 290px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF8ED;
+    background: #B92222;
+    font-family: 'EB Garamond';
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.saleText{
+    width: 270px;
+    height: 105px;
+    color: #FFF;
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+text-align: center;
+font-family: 'EB Garamond';
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: lowercase;
+}
+.mobileEggs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chooseEgg{
+    display: block;
+    text-align: center;
+    width: 151px;
+    height: 70px;
+}
+.chooseEggText{
+    color: #000;
+    align-self: center;
+font-family: 'Playfair Display SC';
+font-size: 15px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+letter-spacing: 1.5px;
+}
+.eggs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    height: 800px;
+}
+.eggsImg{
+    width: 126px;
+height: 149px;
+}
+.sale2{
+    width: 290px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF8ED;
+    background: #B92222;
+    font-family: 'EB Garamond';
+    margin-bottom: 7px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.saleText2{
+    width: 151px;
+    height: 105px;
+    color: #FFF;
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+text-align: center;
+font-family: 'EB Garamond';
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+word-spacing: 50px;
+}
+.main4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    margin: 17px;
+}
+.magicAI{
+    width: auto;
+    }
+    
+.snowHogwarts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+.main5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+@media all and (max-width:720px){
+    .logoTitle{
+        width: 617px;
+    }
+
+    .titleArticle{
+        margin-left: 40px;
+    }
+    .ron{
+        margin-left: 40px;
+    }
+    .titleArticle1{
+
+        margin-left: 40px;
+
+    }
+    .frogs{
+        margin-left: 20px;
+    }
+    .menu{
+        margin-right: 0px;
+        width: 540px;
+    }
+    .rita{
+        margin-left: 2px;
+
+    }
+    .dragonEggs{
+        margin-left: -3px;
+
+    }
+    #particles-js{
+        top: 1%;
+        left: 50%;
+        transform: translate(-180%, 15%);
+    }
+    
+    
+
+}
+@media all and (max-width:700px){
+    #particles-js{
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, 15%);
+    }
+    .viereck{
+        height: 180px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+}
+
+
+
+
+
+@media all and (max-width:415px){
+    .logoTitle{
+        width: 300px;
+        height: 70px;
+    }
+
+    .main3{
+        width: 400px;
+    }
+    .ron{
+        margin-left: 0px;
+    }
+    .titleArticle{
+        margin-left: 50px;
+    }
+    .hut{
+       margin-right: 0px;
+    }
+    .mobileHermi{
+        width: 300px;
+    }
+    .exclusive{
+        width: 300px;
+    }
+    .hermioneImg{
+        width: 300px;
+        height: 190px;
+    }
+    .secretHermione{
+        width: 300px;
+    }
+    .textHermi{
+        width: 300px;
+    }
+    .pomodoroImg{
+        width: 300px;
+    }
+    .fullTextHermi{
+        width: 300px;
+    }
+    .FrogsMenuRita{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .frogsArticleName{
+        width: 300px;
+    }
+    .frogs{
+        margin-left: 0px;
+    }
+    .frogsText{
+        height: 400px;
+        width: 300px;
+    }
+    .brFrog{
+        border: solid 1px black;
+        width:350px;
+        margin: 10px;        
+    }
+    .menu{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .main5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 370px;
+        margin: 18px;
+        margin-top: 0px;
+    }
+    .playAI{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .sivillaMain{
+        margin-left: 3px;
+    }
+    .nameHogwarts{
+        margin-right: 0px;
+
+    }
+    .textHogwarts{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .viereck{
+        height: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .aurorsText1{
+    font-size: 25px;
+    }
+    .aurorsText2{
+        font-size: 15px;
+}
+#particles-js{
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+}
+}

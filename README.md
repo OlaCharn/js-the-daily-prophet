@@ -1,4 +1,4 @@
-# 🧙 Harry Potter Naewspaper "The Daily Prophet" 
+# 🧙 Harry Potter Newspaper "The Daily Prophet" 
 
 ## Weather API , Vanilla JS
 ## with GSAP Animation
